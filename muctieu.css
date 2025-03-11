@@ -1,3 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+}
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.subtitle {
+    color: #555;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+.info, .skills, .goal {
+    margin-top: 20px;
+}
+.thongtin {
+    margin-bottom: 10px;
+}
+
 /* Reset lại margin và padding mặc định */
 * {
     margin: 0;
